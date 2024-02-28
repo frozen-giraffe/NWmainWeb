@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_image">splash image</string>
+    <string name="games">Games</string>
+    <string name="playCubes">PlayCubes</string>
+    <string name="settings">Settings</string>
+</resources>

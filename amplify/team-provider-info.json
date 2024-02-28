@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tokidosplaycubes-staging-161436-authRole",
+      "UnauthRoleArn": "arn:aws:iam::890704590019:role/amplify-tokidosplaycubes-staging-161436-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::890704590019:role/amplify-tokidosplaycubes-staging-161436-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-tokidosplaycubes-staging-161436-deployment",
+      "UnauthRoleName": "amplify-tokidosplaycubes-staging-161436-unauthRole",
+      "StackName": "amplify-tokidosplaycubes-staging-161436",
+      "StackId": "arn:aws:cloudformation:ca-central-1:890704590019:stack/amplify-tokidosplaycubes-staging-161436/f869af90-d3f8-11ee-8722-02df60260280",
+      "AmplifyAppId": "d1trak4s4nf10j"
+    }
+  }
+}

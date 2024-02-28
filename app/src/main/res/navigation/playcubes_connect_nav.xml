@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playcubes_connect_nav"
+    app:startDestination="@id/playcubesCheckFragment2">
+    <fragment
+        android:id="@+id/playcubesCheckFragment2"
+        android:name="com.example.tokidosapplication.view.playcubes.PlaycubesCheckFragment"
+        android:label="Connect PlayCubes" >
+        <action
+            android:id="@+id/action_playcubesCheckFragment2_to_detectingFragment"
+            app:destination="@id/detectingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detectingFragment"
+        android:name="com.example.tokidosapplication.view.playcubes.DetectingFragment"
+        android:label="Connect PlayCubes"
+        tools:layout="@layout/fragment_detecting" >
+        <action
+            android:id="@+id/action_detectingFragment_to_wifiPairingFragment"
+            app:destination="@id/wifiPairingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wifiPairingFragment"
+        android:name="com.example.tokidosapplication.view.playcubes.WifiPairingFragment"
+        android:label="Connect PlayCubes"
+        tools:layout="@layout/fragment_wifi_pairing" >
+        <action
+            android:id="@+id/action_wifiPairingFragment_to_allDoneFragment"
+            app:destination="@id/allDoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allDoneFragment"
+        android:name="com.example.tokidosapplication.view.playcubes.AllDoneFragment"
+        android:label="Connect PlayCubes"
+        tools:layout="@layout/fragment_all_done" />
+
+</navigation>

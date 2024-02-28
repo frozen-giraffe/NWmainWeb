@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.signuplogin.UserManagermentLandingActivity">
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans"
+        android:text="Hi there!"
+        android:textColor="@color/navy_blue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dm_sans"
+        android:text="Lorem ipsum dolor sit amet consectetur. "
+        android:textColor="@color/lighter_bottom_nav_color"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/FacebookLoginButton"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:background="@drawable/blue_button_background_shape"
+        android:text="Continue with Facebook"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/GoogleLoginButton"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:background="@drawable/blue_light_button_background_shape"
+        android:text="Continue with Google"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/FacebookLoginButton"
+        app:layout_constraintStart_toStartOf="@+id/FacebookLoginButton"
+        app:layout_constraintTop_toBottomOf="@+id/FacebookLoginButton"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/SignInButton"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:background="@drawable/orange_button_background_shape"
+        android:text="Sign in with  email"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/FacebookLoginButton"
+        app:layout_constraintStart_toStartOf="@+id/FacebookLoginButton"
+        app:layout_constraintTop_toBottomOf="@+id/GoogleLoginButton"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInButton"
+        app:layout_constraintVertical_bias="0.08">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="Already have an account? "
+            android:textColor="@color/lighter_bottom_nav_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_sans"
+            android:text="Log in"
+            android:textColor="@color/orange"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
